@@ -79,7 +79,7 @@ export class Login extends Component{
 		<div className="boxed-view">
 		<div className="boxed-view__box">
 		<h1>{this.get_string('Login')}!</h1>
-		{this.state.error?<p>{this.state.error}</p>:undefined}
+		{this.state.error?<p style={{color:'red'}}>{this.state.error}</p>:undefined}
 		<form onSubmit={this.on_submit.bind(this)} className="boxed-view__form">
 			<input type="tel" ref="number" placeholder={this.get_string("Enter a Valid Number")} pattern="[0-9]{10}" title="10 digit mobile number"/>
 			<input type="password" ref="password" placeholder={this.get_string("Enter Password")}/>

@@ -39,6 +39,7 @@ body {
 .containerOffer {
 	display: flex;
 	flex-flow: wrap;
+	justify-content: space-between;
 }
 h2 {
 	font-family: fantasy;
@@ -104,7 +105,7 @@ h2 {
 }
 .boxed-view__box2{
     background-color:  white;
-    padding: 2.4 rem;
+    padding: 2.4rem;
     text-align: center;
     width: 94rem;
 }

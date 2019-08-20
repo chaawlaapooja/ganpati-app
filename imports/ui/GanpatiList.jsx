@@ -97,7 +97,8 @@ class GanpatiList extends Component{
     }
 	render(){
 		return(
-		<div><br/><br/>
+		<div ><br/><br/>
+    <div style={{padding:1+'%'}}>
            <span style={{marginLeft:3+'%'}}><a href="tel:+918600165860"><span className="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
             <span style={{marginLeft:1+'%'}}>{this.get_string('For more details, Call on')} <a href="tel:+918446707474"><strong>+918446707474</strong>.</a></span></span>
           
@@ -115,6 +116,7 @@ class GanpatiList extends Component{
 			<div className="containerOffer">
 			    {this.renderList()}
 			</div>
+      </div>
       <Footer/>
 		</div>
 		)

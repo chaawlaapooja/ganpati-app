@@ -152,7 +152,7 @@ constructor(props){
         <li className="dropdown" onClick={()=>{this.onLanClick()}}>
         <a className="dropdown-toggle" data-toggle="dropdown"><i className="fa fa-language">
         {this.get_string('Language')}<span className="caret"></span></i></a>
-        <ul  className="dropdown-menu">
+        <ul className="dropdown-menu">
           <li><a className="lang" id="English">{this.get_string('English')}
           </a></li>
           <li><a className="lang" id="Marathi">

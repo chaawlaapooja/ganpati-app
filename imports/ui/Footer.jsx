@@ -5,8 +5,8 @@ const Footer = ()=>{
 	<div>
 	<footer className="footer">
 
-  <div>© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  <div>© 2019 Copyright : 
+    <a href="http://www.growbez.com/"> Growbez Technologies</a>
   </div>
   
 </footer>
